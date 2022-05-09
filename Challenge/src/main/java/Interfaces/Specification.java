@@ -7,8 +7,7 @@ public class Specification extends javax.swing.JInternalFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    @SuppressWarnings("unchecked")    
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -93,14 +92,12 @@ public class Specification extends javax.swing.JInternalFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCloseActionPerformed
+    private void btCloseActionPerformed(java.awt.event.ActionEvent evt) {
         setVisible (false);
-    }//GEN-LAST:event_btCloseActionPerformed
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
+    
     private javax.swing.JButton btClose;
     private javax.swing.JButton btSend;
     private javax.swing.JLabel jLabel1;
@@ -110,5 +107,5 @@ public class Specification extends javax.swing.JInternalFrame {
     private javax.swing.JTextField jtCreated;
     private javax.swing.JTextField jtName;
     private javax.swing.JTextArea jtaDescription;
-    // End of variables declaration//GEN-END:variables
+    
 }
