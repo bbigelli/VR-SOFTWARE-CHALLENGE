@@ -7,7 +7,6 @@ public class Brand extends javax.swing.JInternalFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -78,26 +77,22 @@ public class Brand extends javax.swing.JInternalFrame {
                     .addComponent(btClose))
                 .addContainerGap(182, Short.MAX_VALUE))
         );
-
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btSendActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSendActionPerformed
+    private void btSendActionPerformed(java.awt.event.ActionEvent evt) {
        
-    }//GEN-LAST:event_btSendActionPerformed
+    }
 
-    private void btCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCloseActionPerformed
+    private void btCloseActionPerformed(java.awt.event.ActionEvent evt) {
         setVisible (false);
-    }//GEN-LAST:event_btCloseActionPerformed
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
+    
     private javax.swing.JButton btClose;
     private javax.swing.JButton btSend;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private com.toedter.calendar.JDateChooser jdcCreated;
     private javax.swing.JTextField jtName;
-    // End of variables declaration//GEN-END:variables
-
+    
 }
