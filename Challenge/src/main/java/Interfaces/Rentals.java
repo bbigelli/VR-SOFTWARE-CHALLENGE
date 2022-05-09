@@ -6,8 +6,7 @@ public class Rentals extends javax.swing.JInternalFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    @SuppressWarnings("unchecked")    
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -132,14 +131,12 @@ public class Rentals extends javax.swing.JInternalFrame {
         );
 
         setBounds(0, 0, 621, 331);
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCloseActionPerformed
+    private void btCloseActionPerformed(java.awt.event.ActionEvent evt) {
        setVisible (false);
-    }//GEN-LAST:event_btCloseActionPerformed
-    
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
+   
     private javax.swing.JButton btClose;
     private javax.swing.JButton btSend;
     private com.toedter.calendar.JDateChooser jDateChooser2;
@@ -154,8 +151,5 @@ public class Rentals extends javax.swing.JInternalFrame {
     private javax.swing.JTable jTable1;
     private com.toedter.calendar.JDateChooser jdcStartDate;
     private javax.swing.JTextField jtfTotal;
-    // End of variables declaration//GEN-END:variables
-
+    
 }
-
-
