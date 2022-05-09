@@ -7,8 +7,7 @@ public class Cars extends javax.swing.JInternalFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    @SuppressWarnings("unchecked")    
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -162,14 +161,12 @@ public class Cars extends javax.swing.JInternalFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
        setVisible (false);
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    }
+    
     private com.sshtools.common.ui.ImagePanel imagePanel1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
@@ -189,5 +186,5 @@ public class Cars extends javax.swing.JInternalFrame {
     private javax.swing.JTextField jtLicensePlate;
     private javax.swing.JTextField jtName;
     private javax.swing.JTextArea jtaDescription;
-    // End of variables declaration//GEN-END:variables
+    
 }
