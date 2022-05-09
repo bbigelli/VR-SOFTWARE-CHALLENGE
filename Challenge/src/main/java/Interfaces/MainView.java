@@ -6,8 +6,7 @@ public class MainView extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    @SuppressWarnings("unchecked")    
     private void initComponents() {
 
         jdpMainView = new javax.swing.JDesktopPane();
@@ -119,53 +118,53 @@ public class MainView extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void CustomersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CustomersActionPerformed
+    private void CustomersActionPerformed(java.awt.event.ActionEvent evt) {
        Customers objCustomers = new Customers();
        jdpMainView.add(objCustomers);
        objCustomers.setVisible(true);
-    }//GEN-LAST:event_CustomersActionPerformed
+    }
 
-    private void BrandActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BrandActionPerformed
+    private void BrandActionPerformed(java.awt.event.ActionEvent evt) {
        Brand objBrand = new Brand();
        jdpMainView.add(objBrand);
        objBrand.setVisible(true);
-    }//GEN-LAST:event_BrandActionPerformed
+    }
 
-    private void CategoriesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CategoriesActionPerformed
+    private void CategoriesActionPerformed(java.awt.event.ActionEvent evt) {
        Categories objCategories = new Categories();
        jdpMainView.add(objCategories);
        objCategories.setVisible(true);
-    }//GEN-LAST:event_CategoriesActionPerformed
+    }
 
-    private void SpecificationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SpecificationActionPerformed
+    private void SpecificationActionPerformed(java.awt.event.ActionEvent evt) {
         Specification objSpecification = new Specification();
         jdpMainView.add(objSpecification);
         objSpecification.setVisible(true);
-    }//GEN-LAST:event_SpecificationActionPerformed
+    }
 
-    private void CarsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CarsActionPerformed
+    private void CarsActionPerformed(java.awt.event.ActionEvent evt) {
         Cars objCars = new Cars();
         jdpMainView.add(objCars);
         objCars.setVisible(true);
-    }//GEN-LAST:event_CarsActionPerformed
+    }
 
-    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
+    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {
 
-    }//GEN-LAST:event_jMenu2ActionPerformed
+    }
 
-    private void RentalsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RentalsActionPerformed
+    private void RentalsActionPerformed(java.awt.event.ActionEvent evt) {
         Rentals objRentals = new Rentals();
         jdpMainView.add(objRentals);
         objRentals.setVisible(true);
-    }//GEN-LAST:event_RentalsActionPerformed
+    }
 
-    private void CarsImagesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CarsImagesActionPerformed
+    private void CarsImagesActionPerformed(java.awt.event.ActionEvent evt) {
         CarsImages objCarsImages = new CarsImages();
         jdpMainView.add(objCarsImages);
         objCarsImages.setVisible(true);
-    }//GEN-LAST:event_CarsImagesActionPerformed
+    }
 
     public static void main(String args[]) {            
         try {
@@ -191,8 +190,7 @@ public class MainView extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+   
     private javax.swing.JMenuItem Brand;
     private javax.swing.JMenuItem Cars;
     private javax.swing.JMenuItem CarsImages;
@@ -204,5 +202,5 @@ public class MainView extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JDesktopPane jdpMainView;
-    // End of variables declaration//GEN-END:variables
+   
 }
